@@ -228,7 +228,7 @@ prompt = ChatPromptTemplate.from_messages([
     1.  **Research Market Trends:** Use the `duckduckgo_search` tool to find relevant market trends, innovations, growth factors, and challenges for the user's topic. Perform multiple targeted searches if helpful.
     2.  **Synthesize Market Trends:** Analyze the search results. Synthesize and clearly format 5 to 7 key market trends, ensuring each includes:
         * Trend description
-        * Source(s) (article title or URL)
+        * Source(s) (article title or URL from the search results using `duckduckgo_search` tool)
         * Significance/Implication
     3.  **Generate PDF Report:** Use the `pdf_generator` tool to save the synthesized market trends content as a PDF file.
         * Provide the **full text of the market trends** you generated in Step 2 as the `content`.
