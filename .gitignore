@@ -1,5 +1,5 @@
 .env
-venv/
+env/
 __pycache__/
 *.pyc
-# Add any other files or directories you don't want tracked
+# Add any other files or directories you don't want track>
